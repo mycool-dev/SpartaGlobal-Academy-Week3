@@ -2,6 +2,7 @@ package com.sparta.me.jackson;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -12,17 +13,20 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ObjectMapper mapper = new ObjectMapper();
-        ObjectMapper xmlMapper = new ObjectMapper();
 
+        ObjectMapper mapper = new ObjectMapper();
+        XmlMapper xmlMapper = new XmlMapper();
 
         try {
             ArrayList<Boolean> flags = new ArrayList<Boolean>(Arrays.asList(true,false,false,true,true));
             Spartan michael = new Spartan("Michael","Java",flags);
+
             String xmlOutput = xmlMapper.writeValueAsString(michael);
             String output = mapper.writeValueAsString(michael);
-            FileWriter fw1 = new FileWriter("src/main/java/com/sparta/me/output/output.xml");
+
             FileWriter fw = new FileWriter("src/main/java/com/sparta/me/output/output.json");
+            FileWriter fw1 = new FileWriter("src/main/java/com/sparta/me/output/output.xml");
+
             fw.write(output);
             fw1.write(xmlOutput);
             fw.close();
