@@ -7,7 +7,7 @@ import java.time.LocalDate;
 //Read
 //Update
 //Delete
-public class EmployeeDAO {
+public class EmployeeDAO {//data access object
     private final Connection connection;
     private Statement statement;
 
@@ -43,6 +43,9 @@ public class EmployeeDAO {
             preparedStatement.setString(4, lastName);
             preparedStatement.setString(5, gender);
             preparedStatement.setDate(6, hireDate);
+            //preparedStatement.executeUpdate();
+            //employee number must be unique
+            //prevents sql injection (we control which placeholders)
         } catch (SQLException e) {
             e.printStackTrace();
         }
