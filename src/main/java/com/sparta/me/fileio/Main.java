@@ -18,4 +18,17 @@ public class Main {
             e.printStackTrace();
         }
     }
+/*         try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/employees.csv"))) {
+        reader.readLine();
+        String line = reader.readLine();
+        while(line != null) {
+            System.out.println(Arrays.toString(line.split(",")));
+            line = reader.readLine();
+        }
+    } catch (FileNotFoundException e) {
+        e.printStackTrace();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}*/
 }
