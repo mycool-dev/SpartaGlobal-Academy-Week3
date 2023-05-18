@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d3f0ca9-885e-4c47-976a-fd266ff23bdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/functional_programming/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/functional_programming/StreamExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mocking/Spartan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mocking/SpartanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mocking/SpartanRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mocking/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/me/fileio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/fileio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/me/jdbc/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/jdbc/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/me/jackson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/jackson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/me/output/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/output/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/me/output/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/me/output/output.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

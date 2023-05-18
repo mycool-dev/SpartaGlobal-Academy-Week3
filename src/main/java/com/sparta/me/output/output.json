@@ -1,1 +1,15 @@
-{"name":"Michael","course":"Java","flags":[true,false,false,true,true]}
+
+//key value pairs
+//key is always a string
+{
+  "name": "Michael",
+  "course": "Java",
+  "flags": [
+    true,
+    false,
+    false,
+    true,
+    true
+  ]
+}
+
